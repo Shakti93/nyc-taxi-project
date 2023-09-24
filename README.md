@@ -12,6 +12,11 @@ This project aims to analyze NYC taxi data by leveraging Azure services, includi
 4. Utilize advanced analytics to derive insights using Azure Synapse. 
 5. Create interactive visualizations for data exploration using Power BI. 
 
+### Solution Architecture
+
+![NYC solution diagram](https://github.com/Shakti93/nyc-taxi-project/assets/84408451/528b297c-fe6e-401c-b660-e8b017d2abf3)
+
+
 ### Project Scope 
 
 The project will focus on the following key areas: 
