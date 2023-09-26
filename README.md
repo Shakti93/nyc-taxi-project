@@ -1,6 +1,6 @@
 # Analyzing NYC Taxi Data in Azure Environment
 
-![NYC PowerBI Report](https://app.powerbi.com/reportEmbed?reportId=ca0d3feb-3c4b-498e-8185-0a8a66fa5e48&autoAuth=true&ctid=edc5c3bf-4ab5-4697-84fa-41b44eb08b5e)
+<iframe title="NYC Taxi Report" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=ca0d3feb-3c4b-498e-8185-0a8a66fa5e48&autoAuth=true&ctid=edc5c3bf-4ab5-4697-84fa-41b44eb08b5e" frameborder="0" allowFullScreen="true"></iframe>
 
 ## Executive Summary 
 
