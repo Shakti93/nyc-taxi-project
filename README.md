@@ -1,5 +1,7 @@
 # Analyzing NYC Taxi Data in Azure Environment
 
+![NYC PowerBI Report](https://app.powerbi.com/reportEmbed?reportId=ca0d3feb-3c4b-498e-8185-0a8a66fa5e48&autoAuth=true&ctid=edc5c3bf-4ab5-4697-84fa-41b44eb08b5e)
+
 ## Executive Summary 
 
 This project aims to analyze NYC taxi data by leveraging Azure services, including Azure Data Factory, Azure Databricks, Azure Data Lake Storage, Azure Synapse, and Power BI. The goal is to extract meaningful insights from the data, identify ride patterns, trends, and anomalies, and provide stakeholders with valuable information for decision-making. 
