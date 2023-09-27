@@ -1,7 +1,7 @@
 # Analyzing NYC Taxi Data in Azure Environment
 
 
-Introduction 
+## Introduction 
 
 The New York City Taxi and Limousine Commission (TLC) provides extensive data on taxi trips in the city, including information on fares, trip durations, timings, and boroughs. This project utilizes Azure cloud services to ingest, store, clean, transform, and analyze New York taxi data for the last 10 years. Additionally, the project aims to create a Power BI dashboard for comparing various aspects of taxi rides and their dependency on factors like seasons, months, weekdays/weekends, and time of day. 
 
