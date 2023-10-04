@@ -28,7 +28,7 @@ The New York City Taxi and Limousine Commission (TLC) provides extensive data on
 
 ## Power BI Dashboard 
 
-![NYC Power BI Report](https://github.com/Shakti93/nyc-taxi-project/assets/84408451/7e3d3379-c63c-4693-a583-f6e1ac42a830)
+![NYC PowerBI Report](https://github.com/Shakti93/nyc-taxi-project/assets/84408451/5418bfb7-1043-4844-aab5-fc366f370667)
 
 
 1. The visualizations for the Power BI dashboard include-  
