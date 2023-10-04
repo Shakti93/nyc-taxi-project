@@ -28,6 +28,9 @@ The New York City Taxi and Limousine Commission (TLC) provides extensive data on
 
 ## Power BI Dashboard 
 
+![NYC Power BI Report](https://github.com/Shakti93/nyc-taxi-project/assets/84408451/7e3d3379-c63c-4693-a583-f6e1ac42a830)
+
+
 1. The visualizations for the Power BI dashboard include-  
 2. KPI cards for Total Rides, Average Fare, Average Trip Distance, and Average Trip Duration for a particular Filter context. 
 3. Parameterized Line Chart to show Total Rides, Average Fare, Average Trip Distance, and Average Trip Duration over the past 1 year. 
