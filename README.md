@@ -18,7 +18,9 @@ The New York City Taxi and Limousine Commission (TLC) provides extensive data on
 
 ![NYC solution diagram](https://github.com/Shakti93/nyc-taxi-project/assets/84408451/528b297c-fe6e-401c-b660-e8b017d2abf3)
 
-## Data Pipeline Implementation 
+## Data Pipeline Implementation
+
+![NYC Taxi ADF Pipeline](https://github.com/Shakti93/nyc-taxi-project/assets/84408451/44b2257d-8a53-4e4e-893c-552b49c52338)
 
 1. **Data Sources:** The data sources for this pipeline are NYC.org and GitHub. The data sources contain files for trip data which are in parquet format distributed month-wise from the year 2012 till the latest month. Dimension data is stored in CSV format in GitHub for Payment Mode, Rate, Borough and Zone, Vendor, and Calendar. 
 2. **Data Ingestion:** The data is extracted from NYC.org and Github Repository using HTTP Protocol Linked Service in Azure Data Factory to Azure Data Lake Storage and stored in the NYC raw container. ADF pipelines are created to fetch monthly data on 1st day of each month using the Tumbling Window Trigger. 
@@ -30,19 +32,20 @@ The New York City Taxi and Limousine Commission (TLC) provides extensive data on
 
 ![NYC PowerBI Report](https://github.com/Shakti93/nyc-taxi-project/assets/84408451/5418bfb7-1043-4844-aab5-fc366f370667)
 
+The visualizations for the Power BI dashboard include- 
 
-1. The visualizations for the Power BI dashboard include-  
-2. KPI cards for Total Rides, Average Fare, Average Trip Distance, and Average Trip Duration for a particular Filter context. 
-3. Parameterized Line Chart to show Total Rides, Average Fare, Average Trip Distance, and Average Trip Duration over the past 1 year. 
-4. Bar Graph for hourly distribution of Total Rides, Average Fare, Average Trip Distance, and Average Trip Duration. 
-5. Horizontal Bar Graph for distribution of rides by Borough 
-6. Map visualization for density of rides by location. 
+1. Key Performance Indicator (KPI) cards that provide insights into Total Rides, Average Fare, Average Trip Distance, and Average Trip Duration within a specific filter context.
+2. A dynamic Line Chart with parameterization, enabling the display of trends in Total Rides, Average Fare, Average Trip Distance, and Average Trip Duration over the course of the past year.
+3. A Bar Graph illustrating the hourly distribution of Total Rides, Average Fare, Average Trip Distance, and Average Trip Duration, facilitating a comprehensive view of time-based patterns.
+4. A Horizontal Bar Graph depicting the distribution of rides by Borough, allowing for easy comparison and analysis of ride distribution across different geographic areas.
+5. A Map visualization presenting the spatial density of rides by location, allowing for a visual exploration of ride hotspots.
+6. A Donut Chart representing the distribution of payment modes, providing an overview of how customers choose to pay for their rides.
 
 
 ## Project highlights  
 
-1. Successfully implemented a data pipeline for ingesting, storing, cleaning, transforming, and analyzing New York taxi data using Azure services. 
-2. Created a Power BI dashboard for comparing ride fares, lengths, timings, and boroughs based on various factors. 
+1. Proficiently orchestrated a comprehensive data pipeline within Azure services, encompassing data ingestion, storage, cleaning, transformation, and analysis of New York taxi data, ensuring seamless data flow and management.
+2. Crafted an intuitive Power BI dashboard that empowers users to conduct in-depth comparisons of ride fares, trip lengths, timings, and boroughs, with the flexibility to explore and analyze multiple influencing factors.
 
 
 ## Conclusion 
